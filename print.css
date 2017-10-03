@@ -1,0 +1,430 @@
+body {
+	background-color: #000002;
+	font-family: "Helvetica", sans-serif;
+}
+
+img#logo {
+	float: left;
+	margin-top: 0;
+	width: 245px;
+	margin-bottom: 5%;
+}
+
+main {
+	font-family: "Helvetica", sans-serif;
+	width: 70%;
+	margin: 3% auto;
+	float:left;
+}
+
+aside {
+	visibility: hidden;
+}
+
+ul#nav	{
+	list-style-type: none;
+	}
+	
+li.top	{
+	width: 165px;
+	height: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	float: left;
+	background-color: #ffbf3f;
+	border: solid 2px;
+	border-radius: 5px;
+	color: black;
+	padding-top: 5px;
+	}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+li.top>a:hover {
+	color: white;
+}
+
+ a:visited {
+	color: #47494c; 
+} 
+
+li.sub {
+	margin-bottom: .5px;
+	width: 165px;
+	height: 25px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: center;
+	float: left;
+	background-color: #ffbf3f;
+	border: solid 2px;
+	border-radius: 5px;
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+li.sub>a:hover {
+	color: white;
+}
+
+li.top {
+	margin-bottom: 10px;
+	color: white;
+}
+
+
+ul#nav li ul { 
+		visibility: hidden; 
+	}
+
+ul#nav li:hover > ul {
+		visibility: visible;
+		position: relative;
+	}
+
+ul.specs {
+	color: white;
+	list-style-image: url('images/bullet.png');
+	float: left;
+
+}
+
+h2.specs {
+	float: left;
+	margin-right: 300px;
+}
+
+li.specs_list {
+	text-decoration: none;
+	color: white;
+
+}
+
+
+h1#headline {
+	color: #ffbf3f;
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+	font-style: italic;
+
+}
+
+h1 {
+	color: #ffbf3f;
+	font-variant: small-caps;
+	text-align: center;
+	margin:auto;
+}
+
+
+h2 {
+	font-variant: small-caps;
+	color: #ffbf3f;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h2.productH2 {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+
+h3 {
+	color: #ffbf3f;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-style: italic;
+
+}
+
+span {
+	color: #2bde73;
+}
+
+i {
+	color: #4d94ff;
+}
+
+div>p>a:hover {
+	color: white;
+}
+
+div#homepage_button {
+	width: 200px;
+	height: 50px;
+	border: solid #ffbf3f 3px;
+	background-color: black;
+	border-radius: 10px;
+	margin: 3% auto auto auto;
+	text-align: center;
+}
+
+#homepage_button>p>a{
+	color: white;
+}
+
+#homepage_button:hover{
+	cursor: pointer;
+	color: #2bde73;
+	transition-duration: 0s;
+	transition-property: width;
+	width: 220px;
+	height: 60px;
+	padding-top: 1.5%;
+}
+
+#homepage_p {
+	line-height: 2em;
+}
+
+div.product_button {
+	width: 200px;
+	height: 50px;
+	border: solid white 3px;
+	background-color: #ffbf3f;
+	border-radius: 10px;
+	margin: 3% auto;
+	text-align: center;
+}
+
+
+div.homepage_image_left {
+	width: 230px;
+	float: left;
+	margin-right: 15%;
+}
+
+div.homepage_image_right {
+	width: 230px;
+	float: left;
+	clear: right;
+}
+
+div.products_image_left {
+	width: 200px;
+	float: left;
+	margin-right: 15%;
+
+}
+
+div.products_image_right {
+	width: 210px;
+	float: left;
+}
+
+.homepage_image_left>h3{
+	margin: 0 auto 0 auto;
+}
+
+
+div#tableimages {
+	width: 100%;
+	height: 1800px;
+	color: white;
+	display: block;		
+	margin: auto;
+	padding-left: 9%;
+}
+
+section.image_with_text {
+	width: 235px;
+	height: 300px;
+	margin-right: 10px;
+	float: left;
+	text-align: center;	
+
+
+}
+
+.homepage_section{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: 65%;
+}
+
+.product_section{
+	margin: auto;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+
+#aboutus_section {
+	margin: auto;
+	display: block;
+	width: 80%;
+}
+
+#lightimg {
+	float: left;
+	width: 230px;
+	height: 136px;
+	border: solid white 3px;
+	margin-right: 25px;
+}
+
+#powerimg {
+	float: left;
+	width: 230px;
+	height: 136px;
+	border: solid white 3px;
+	clear: right;
+
+}
+
+img#imgleft {
+	float: left;
+	width: 230px;
+	margin-right: 10px;
+}
+
+img#imgright {
+	float: left;
+	width: 230px;
+	clear: right;
+
+}
+
+img.product_render {
+	float: right;
+	margin: 5px 0px 0px 8px;
+	border: solid #ffbf3f 5px;
+}
+
+a>h3 {
+	font-family: "Helvetica", sans-serif;
+	color: #ffbf3f;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+
+article>p {
+	color: white;
+	clear: both;
+	text-align: justify;
+	line-height: 2em;
+
+}
+
+article{
+	width: 80%;
+	margin: auto;
+	color: white;
+	margin-bottom: 20px;
+
+}
+
+article>img{
+	margin:auto;
+	display:block;
+}
+
+iframe { 
+	visibility: hidden;
+}
+
+hr {
+	width: 80%;
+	margin-left: 10%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #ffbf3f;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+
+input[type=submit]:hover {
+    background-color: #db9711;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 75%;
+    margin:auto;
+    display: block;
+}
+
+.full_site {
+	visibility: hidden;
+	color: #ffbf3f;
+}
+
+
+footer {
+
+width:100%;
+margin: auto;
+padding-top: 1%;
+padding-bottom: 0;
+clear:both;
+border-top: 3px solid grey;
+
+}
+
+
+@media only screen and (min-width: 410px) and (max-width: 480px) {
+
+h1 {font-size: 1.5em !important;}
+h2 {font-size: 1em !important;}
+h3{ font-size: .8em !important;}
+main {clear: both;}
+.full_site{visibility: visible;}
+
+#imgleft, #imgright	{width: 140px !important;}
+#banner {width: 260px !important;}
+#form {width: 350px !important;}
+iframe {height: 200px !important;}
+.spec_images {width: 260px !important;}
+#homepage_button {width: 200px !important;}
+.lightimg, .powerimg {width: 140px !important;}
+.homepage_section {margin-left: 60px !important;}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+h1 {font-size: 1.5em;}
+main {float: right;}
+.full_site {visibility: visible;}
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+/* No changes for normal browser width */
+
+}
